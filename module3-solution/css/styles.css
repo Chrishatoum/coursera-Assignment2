@@ -1,1 +1,97 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.container {
+	margin-left: 0px;
+}
+
+
+.navbar-brand {
+  position: absolute;
+}
+
+.navbar-brand a {
+	position: relative;
+    bottom: 125%;
+    left: 0%;
+    color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: lightskyblue;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid lightblue;
+}
+
+.text-center {
+    font-family: 'Sofia';
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+    color: black;
+    text-align: cent;
+}
+
+#text {       
+    margin: 10px;
+    background-color: #AAA5A5;
+    font-family: 'Alfa Slab One';   
+    position: relative;
+}
+
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+    background-color: #AAA5A5;
+}
+
+#nav-list a:hover {
+    background-color: #AEAE52;   
+}
+
+.navbar-default .navbar-collapse {
+  margin-top:0px;
+  border: 0px;
+  list-style-type: none;
+} 
+.text-content {
+  color: #3A3B3C;
+  font-family: Futura;
+}
